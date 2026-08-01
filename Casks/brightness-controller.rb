@@ -1,6 +1,6 @@
 cask "brightness-controller" do
-  version "1.13.0"
-  sha256 "211f0f536079fc649e4a843e59ce214f0dc3dc03d5abc418142e51fa9267273c"
+  version "1.14.0"
+  sha256 "26f73a8557def9fe176f984c65e612bf20b33719c33258b4540f09715e84c49a"
 
   url "https://github.com/back2business/brightness-controller-releases/releases/download/v#{version}/BrightnessController-#{version}.zip",
       verified: "github.com/back2business/brightness-controller-releases/"
