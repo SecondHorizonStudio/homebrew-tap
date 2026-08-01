@@ -2,8 +2,13 @@
 
 Homebrew formulae and casks for Second Horizon apps.
 
+| Cask | What it is |
+|---|---|
+| `brightness-controller` | One slider for every screen on your Mac, including external monitors |
+| `readout` | Menu bar instrument panel — network, disk, temps, fans, CPU, memory, plus optional fan control |
+
 ```sh
-brew install --cask back2business/tap/brightness-controller
+brew install --cask back2business/tap/readout
 ```
 
 Or tap once and install by name afterwards:
@@ -11,6 +16,7 @@ Or tap once and install by name afterwards:
 ```sh
 brew tap back2business/tap
 brew install --cask brightness-controller
+brew install --cask readout
 ```
 
 ## Why a tap rather than homebrew-cask?
