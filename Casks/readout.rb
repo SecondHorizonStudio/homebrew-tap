@@ -1,6 +1,6 @@
 cask "readout" do
-  version "0.3.1"
-  sha256 "0e79f9f03b405ca0fd1f0b5536014edc2a34ff1b7618f56e234d85721d58d3a1"
+  version "0.3.2"
+  sha256 "be0e472f6be1d587b50e90ce1dda3cdb8bb30e3db7cf94aa7db2bad4e7450433"
 
   url "https://github.com/back2business/readout-releases/releases/download/v#{version}/Readout-#{version}.zip",
       verified: "github.com/back2business/readout-releases/"
