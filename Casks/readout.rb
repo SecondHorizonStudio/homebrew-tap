@@ -6,7 +6,7 @@ cask "readout" do
       verified: "github.com/SecondHorizonStudio/readout-releases/"
   name "Readout"
   desc "Menu bar instrument panel: network, disk, temps, fans, CPU, memory"
-  homepage "https://github.com/SecondHorizonStudio/readout-releases"
+  homepage "https://macreadout.com/"
 
   livecheck do
     url :url
