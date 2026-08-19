@@ -6,7 +6,7 @@ cask "brightness-controller" do
       verified: "github.com/SecondHorizonStudio/brightness-controller-releases/"
   name "Brightness Controller"
   desc "One slider for every screen, including external monitors"
-  homepage "https://github.com/SecondHorizonStudio/brightness-controller-releases"
+  homepage "https://brightnesscontroller.com/"
 
   livecheck do
     url :url
