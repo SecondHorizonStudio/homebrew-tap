@@ -1,6 +1,6 @@
 cask "readout" do
-  version "0.5.3"
-  sha256 "ed0fb11d6ef37e877388bab6424154269ab668daf43c2980885c4157df1a975d"
+  version "0.5.4"
+  sha256 "b6f62e92fa31beb8e4e1cf54520277d4923b387b3456d897d1c54525721c2694"
 
   url "https://github.com/SecondHorizonStudio/readout-releases/releases/download/v#{version}/Readout-#{version}.zip",
       verified: "github.com/SecondHorizonStudio/readout-releases/"
