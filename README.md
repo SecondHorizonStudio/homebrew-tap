@@ -35,19 +35,23 @@ brew install --cask readout
 
 This tap used to live at `back2business/tap`. GitHub redirects the old
 name, so existing installs and `brew upgrade --cask back2business/tap/...`
-keep working. If Homebrew warns that `secondhorizonstudio/tap` is not
-trusted on a machine that also has the old tap, pick one:
+keep working; there is no need to reinstall.
+
+If Homebrew warns that `secondhorizonstudio/tap` is not trusted on a
+machine that also has the old tap, either drop the new one:
 
 ```sh
 brew untap secondhorizonstudio/tap
 ```
 
-or move over for good:
+or trust the cask you use from it:
 
 ```sh
-brew untap --force back2business/tap
-brew install --cask secondhorizonstudio/tap/readout
+brew trust --cask secondhorizonstudio/tap/readout
 ```
+
+Do not `brew untap --force back2business/tap`: since Homebrew 6 that
+uninstalls every app that came from the tap.
 
 ## Why a tap rather than homebrew-cask?
 
