@@ -1,6 +1,6 @@
 cask "readout" do
-  version "1.0.2"
-  sha256 "c1992143af48c923af5c11f0f305895eb8ec185745103d2fcdb9635d9d308660"
+  version "1.1.0"
+  sha256 "f7c20202824d7f35546206ad8d22b0ba96050ff133e208bf3ec5d75d511c2c4d"
 
   url "https://github.com/SecondHorizonStudio/readout-releases/releases/download/v#{version}/Readout-#{version}.zip",
       verified: "github.com/SecondHorizonStudio/readout-releases/"
@@ -34,3 +34,4 @@ cask "readout" do
     System Settings > General > Login Items & Extensions.
   EOS
 end
+
